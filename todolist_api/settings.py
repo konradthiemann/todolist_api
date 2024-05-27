@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-5$gqcfwm2bzcp!-xlnz&4n^=z&we+%2ud70zf3r%u*&r-@vgiz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['premiox.pythonanywhere.com']
+ALLOWED_HOSTS = ['premiox.pythonanywhere.com',
+                 'localhost',
+                 '127.0.0.1'
+]
 
 
 # Application definition
